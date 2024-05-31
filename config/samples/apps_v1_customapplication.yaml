@@ -1,0 +1,12 @@
+apiVersion: apps.pf93.cn/v1
+kind: CustomApplication
+metadata:
+  labels:
+    app.kubernetes.io/name: customapplication
+    app.kubernetes.io/instance: customapplication-sample
+    app.kubernetes.io/part-of: custom-application-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: custom-application-operator
+  name: customapplication-sample
+spec:
+  # TODO(user): Add fields here
